@@ -26,6 +26,7 @@ function SvgIcon(props) {
     <svg
       className={classNames(classes.root, className)}
       viewBox={viewBox}
+      focusable={false}
       aria-hidden={titleAccess ? 'false' : 'true'}
       {...other}
     >
